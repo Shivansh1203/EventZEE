@@ -1,8 +1,8 @@
 {
-  "name": "mernbackend",
+  "name": "EventZEE",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.js -e js,hbs"
@@ -19,5 +19,9 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.6",
     "validator": "^13.7.0"
-  }
+  },
+
+  "bin" : {
+    "execute" : "index.js"
+} 
 }
