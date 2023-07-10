@@ -22,6 +22,6 @@
   },
 
   "bin" : {
-    "execute" : "index.js"
+    "execute" : "app.js"
 } 
 }
